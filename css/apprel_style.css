@@ -1,0 +1,55 @@
+.apprel_banner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-image: url('../img/Bg2/apprel_bg2.png');
+height: 33vh;
+width: 100%;
+background-size: cover;
+background-position: center;
+margin: 0 0 70px;
+color: #ef0f78;;
+/* -webkit-text-stroke: 0.1px white; */
+}
+
+.apprel_banner  h3{
+    font-size: 65px;
+}
+.apprel_banner  h4{
+    font-size: 35px;
+    font-weight: 100;
+    margin: -10px 0 10px;
+}
+
+
+/* ****** category ****** */
+.category{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+}
+
+.cate_h{
+    width: 10%;
+    height: 22vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.cate_h .cate_img{
+    height: 90%;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+.cate_h .cate_img img{
+    width: 100%;
+}

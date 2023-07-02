@@ -1,0 +1,651 @@
+#close ,.menu{
+    display: none;
+}
+
+@media only screen and (max-width:1100px) {
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }}
+
+@media only screen and (max-width:840px) {
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    /* *** NAvbar *** */
+
+    #navbar {
+        display: flex;
+        flex-direction: column ;
+        justify-content: flex-start;
+        align-items: center;
+        top: 0;
+        right: -350px;
+        height: 100vh;
+        width: 350px;
+        position: fixed;
+        background-color: #e3edf6;
+        padding: 100px 0 0 20px;
+        transition: 0.4s;
+    }
+
+    #navbar.active{
+        right: 0px;
+    }
+
+    #navbar li{
+        margin-bottom: 30px;
+    }
+
+    #close{
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        color: black;
+        font-size: 35px;
+    }
+
+    .menu{
+        display: block;
+        /* display: flex;
+        align-items: center; */
+    }
+    .menu i{
+        color: black;
+        font-size: 28px;
+        padding-left: 30px;
+    }
+
+    #navbar .cart{
+        display: none;
+    }
+
+
+    /* *** Banner *** */
+    .banner{
+        padding-left: 30px;
+        padding-right: 0px;
+        height: 60vh;
+    }
+
+
+    .ban-col1{
+        font-size: 35px;
+        margin-bottom: -20px;
+    }
+    .ban-col2{
+        font-size: 80px;
+        margin-bottom: -20px;
+    }
+    .ban-col3{
+        font-size: 37px;
+        /* margin-bottom: -10px; */
+    }
+    
+    .ban-col4{
+        font-size: 27px;
+    }
+    
+    button.normal{
+        padding: 15px 25px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 25px;
+    }
+    
+    
+    
+    .shopnow-btn{
+        margin: 13px 0;
+        padding: 8px 18px;
+        font-size: 20px;
+    }
+
+
+
+    /* *** SumDrop Head *** */
+    .SumDrop_head_h {
+        font-size: 70px;
+        margin-bottom: -10px;
+    }
+    .SumDrop_sub_head_h {
+        font-size: 25px;
+    }
+
+    .pro-cont1_head_h {
+        font-size: 55px;
+        margin-top: 70px;
+    }
+    .pro-cont1 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+/*     
+    .pro-cont1 .pro {
+        width: 35%;
+    } */
+    .pro-cont1 .pro .pro-img {
+        height: 21vh;
+    }
+    .pro-cont1 .pro .desc h3 {
+        font-size: 22px;
+    }
+    .pro-cont1 .pro .desc h4 {
+        font-size: 20px;
+    }
+
+    .pro-cont1 .pro .cart {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        border-radius: 50px;
+        bottom: 12px;
+        right: 10px;
+    }
+    /* *** sun banner *** */
+    .sun_banner h3{
+        font-size: 45px;
+    }
+    .sun_banner h4{
+        font-size: 30px;
+    }
+
+    button.normal {
+        padding: 8px 15px;
+        font-size: 20px;
+    }
+
+    button.normal {
+        padding: 8px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+
+    .sun_banner{
+        height: 28vh;
+    }
+
+    .img_small_size {
+        height: 83%;
+    }
+
+    /* #small_ban .sm_ban{
+        width: 100%;
+    } */
+
+    /* *** footer *** */
+    footer .col{
+        width: 45%;
+        margin: 30px auto;
+    }
+
+    .col1{
+        text-align: left;
+    }
+    .col1 h3{
+        text-align: left;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    /* navbar */
+    .header{
+        padding: 5px 25px;
+    }
+    .menu i {
+        font-size: 21px;
+        padding-left: 15px;
+    }
+
+    /* sumdrop banner */
+    .ban-col1{
+        font-size: 25px;
+        margin-bottom: -15px;
+    }
+    .ban-col2{
+        font-size: 60px;
+        margin-bottom: -20px;
+    }
+    .ban-col3{
+        font-size: 30px;
+        /* margin-bottom: -10px; */
+    }
+    
+    .ban-col4{
+        font-size: 25px;
+    }
+    
+    
+    
+    .shopnow-btn{
+        font-size: 17px;
+    }
+
+      /* *** SumDrop Head *** */
+
+
+    .SumDrop_head_h {
+        font-size: 57px;
+        margin-bottom: -10px;
+    }
+
+    .SumDrop_head_sub_h {
+        font-size: 25px;}
+
+
+    .pro-cont1_head_h {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .pro-cont1 {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .pro-cont1 .pro {
+        width: 95%;
+    }
+
+
+    /* products */
+    .pro-cont1 .pro{
+        border-radius: 10px;
+    }
+
+    .pro-cont1 .pro .pro-img img {
+        border-radius: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .pro-cont1 .pro .pro-img{
+        border-radius: 10px;
+    }
+
+    .pro-cont1 .pro .desc h3{
+        font-size: 25px;
+    }
+    .pro-cont1 .pro .desc h4{
+        font-size: 22px;
+    }
+
+    .pro-cont1 .pro .cart {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    /* sunbanner  */
+    .sun_banner h3 {
+        font-size: 34px;
+    }
+    .sun_banner h4 {
+        font-size: 25px;
+    }
+
+    button.normal {
+        padding: 5px 13px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    #small_ban {
+        padding: 20px 35px;
+    }
+    #small_ban .sm_ban{
+        width: 100%;
+    }
+
+    #small_ban h3 {
+        font-size: 22px;
+        margin: 20px 0 0;
+    }
+    #small_ban h4 {
+        font-size: 24px;
+    }
+
+    #small_ban h2 {
+        font-size: 45px;
+        margin: -5px 0;
+    }
+
+    #small_ban .sm_ban_btn{
+        margin: 15px 0;
+        font-size: 15px;
+    }
+    #apprel_ban {
+        height: 35vh;
+    }
+
+    #apprel_ban h3 {
+        font-size: 23px;
+    }
+    #apprel_ban h2 {
+        font-size: 40px;
+    }
+
+    #apprel_ban h4 {
+        margin: 2px auto;
+        font-size: 18px;
+    }
+
+    #apprel_ban .sm_ban_btn {
+        font-size: 14px;
+        padding: 7px 8px;
+    }
+
+    footer .col {
+        width: 70%;
+        margin: 30px auto;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:450px){
+
+    /* navbar */
+    .header .left img {
+        width: 140px;
+    }
+
+    .header {
+        padding: 5px 10px;
+    }
+
+    .menu{
+        width: 22%;
+    }
+    .menu i {
+        font-size: 21px;
+        padding-left: 13px;
+    }
+
+    /* sumdrop banner */
+    .ban-col1 {
+        font-size: 19px;
+        margin-bottom: -12px;
+    }
+    .ban-col2 {
+        font-size: 43px;
+        margin-bottom: -14px;
+    }
+    .ban-col3{
+        font-size: 21px;
+        /* margin-bottom: -10px; */
+    }
+    
+    .ban-col4{
+        font-size: 15px;
+    }
+    
+    
+    
+    .shopnow-btn {
+        margin: 7px 0;
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    /* Products */
+    .SumDrop_head_h {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+    .SumDrop_head_sub_h {
+        font-size: 17px;
+    }
+
+    .pro-cont1_head_h {
+        font-size: 30px;
+    }
+
+    .pro-cont1 .pro {
+        margin: 10px 7px;
+    }   
+
+    .pro-cont1 .pro .desc h3 {
+        font-size: 20px;
+    }
+    .pro-cont1 .pro .desc h4 {
+        font-size: 17px;
+    }
+
+    .pro-cont1 .pro .cart {
+        width: 23px;
+        height: 23px;
+        line-height: 23px;
+        font-size: 11px;
+    }
+
+    .sun_banner h3 {
+        font-size: 25px;
+    }
+    .sun_banner h4 {
+        font-size: 20px;
+    }
+
+    button.normal {
+        padding: 5px 10px;
+        border-radius: 7px;
+        font-size: 15px;
+    }
+
+    #small_ban h3 {
+        font-size: 16px;
+        margin: 20px 0 0;
+    }
+    #small_ban h4 {
+        font-size: 20px;
+    }
+
+    #small_ban h2 {
+        font-size: 30px;
+        margin: -5px 0;
+    }
+
+    #small_ban .sm_ban_btn{
+        margin: 15px 0;
+        font-size: 15px;
+    }
+
+    #small_ban .sm_ban_btn {
+        margin: 10px 0;
+        font-size: 13px;
+        padding: 5px 10px;
+        border: 1px solid black;
+    }
+
+    #small_ban .sm_ban{
+        height: 25vh;
+    }
+
+
+    #apprel_ban {
+        height: 25vh;
+    }
+
+    #apprel_ban h3 {
+        font-size: 16px;
+    }
+    #apprel_ban h2 {
+        font-size: 27px;
+        margin: -8px 0;
+    }
+
+    #apprel_ban h4 {
+        margin: 6px auto;
+        font-size: 13px;
+    }
+
+    #apprel_ban .sm_ban_btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    footer {
+        padding: 20px 15px;
+    }
+
+    footer .col {
+        width: 70%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    
+    footer .col1 img {
+        width: 130px;
+        margin-bottom: 25px;
+    }
+
+    .col1 h3 {
+        text-align: center;
+    }
+    footer h3 {
+        font-size: 27px;
+        margin: 10px 0;
+    }
+    footer h4 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    /* *** cart *** */
+    #cart table thead tr td {
+        font-size: 15px;
+    }
+    #cart table tbody tr td {
+        font-size: 14px;
+    }
+
+    #cart table img {
+        width: 100%;
+    }
+
+    #cart table td {
+        padding: 3px;
+    }
+
+    #cart table td:nth-child(4) input {
+        width: 90%;
+        padding: 5px 10px;
+    }
+    #cartadd {
+        width: 95%;
+    }
+}
+
+
+@media only screen and (max-width:400px){
+    .header .left img {
+        width: 120px;
+    }
+
+    .header {
+        padding: 8px 10px;
+    }
+
+    .menu{
+        width: 22%;
+    }
+    .menu i {
+        font-size: 20px;
+        padding-left: 13px;
+    }
+
+    /* sumdrop banner */
+    .ban-col1 {
+        font-size: 15px;
+        margin-bottom: -10px;
+    }
+    .ban-col2 {
+        font-size: 39px;
+        margin-bottom: -10px;
+    }
+    .ban-col3{
+        font-size: 15px;
+        /* margin-bottom: -10px; */
+    }
+    
+    .ban-col4{
+        font-size: 15px;
+    }
+    
+    
+    
+    .shopnow-btn {
+        margin: 7px 0;
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    /* Products */
+
+    .pro-cont1 .pro .cart {
+        bottom: 8px;
+        right: 10px;
+    }
+    .SumDrop_head_h {
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+
+
+    footer {
+        padding: 20px 15px;
+    }
+
+    footer .col {
+        width: 70%;
+        margin: 30px auto;
+        text-align: center;
+    }
+    
+    footer .col1 img {
+        width: 130px;
+        margin-bottom: 25px;
+    }
+
+    .col1 h3 {
+        text-align: center;
+    }
+    footer h3 {
+        font-size: 17px;
+        margin: 10px 0;
+    }
+    footer h4 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    footer a {
+        font-size: 19px;
+    }
+}
+
+
+@media only screen and (max-width:375px){
+    .ban-col2 {
+        font-size: 30px;
+    }
+
+    .shopnow-btn {
+        margin: 7px 0;
+        padding: 4px 7px;
+        font-size: 15px;
+        border-radius: 4px;
+    }
+}

@@ -1,0 +1,395 @@
+/* ********** Home - Banner ********** */
+.banner{       
+    margin: auto;
+    background-color: #e3edf6;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px 0 160px;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+
+.ban-col1{
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+.ban-col2{
+    font-size: 120px;
+    margin-bottom: -35px;
+}
+.ban-col3{
+    font-size: 40px;
+    /* margin-bottom: -10px; */
+}
+
+.ban-col4{
+    font-size: 30px;
+}
+
+button.normal{
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+
+
+.shopnow-btn{
+    margin: 20px 0;
+    background-color: #e3edf6;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+
+.shopnow-btn:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+.banner .right img{
+    width: 100%;
+}
+
+/* ********** Home - Summer Drop ********** */
+
+.SumDrop_head{
+    text-align: center;
+    margin: 130px 0 0 0;
+}
+
+
+.SumDrop_head_h {
+    font-size: 100px;
+    margin-bottom: -20px;
+}
+
+.SumDrop_head_sub_h {
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+.pro-cont1_head_h{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+
+
+
+.pro-cont1{
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+.pro-cont1 .pro{
+    text-align: center;
+    width: 100%;
+    padding: 10px 12px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* margin: 20px 15px; */
+    cursor: pointer;
+    position: relative;
+}
+
+.pro-cont1 .pro .pro-img{
+    height: 37vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+.pro-cont1 .pro .pro-img img{
+    border-radius: 15px;
+    width: 100%;
+}
+.pro-cont1 .pro .desc{
+    text-align: start;
+}
+
+.pro-cont1 .pro .desc h3{
+    font-size: 30px;
+}
+
+.pro-cont1 .pro .desc h4{
+    font-size: 25px;
+}
+
+.pro-cont1 .pro .cart{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
+    background-color: #e3edf6;
+    color: black;
+    font-size: 18px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+
+
+.img_small_size{
+    height: 89%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ********** Sunglass banner ********** */
+
+.sun_banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../img/Bg2/sunglasses_bg.jpg');
+    /* background-image: url('../img/Bg/sung_ban_pink_2.jpg'); */
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 40px 0 70px;
+
+}
+
+.sun_banner h3{
+    font-size: 70px;
+    margin-top: 25px;
+    color: black;
+}
+.sun_banner h4{
+    font-size: 40px;
+    font-weight: 500;
+    color: black;
+}
+.sun_banner h4 span{
+    color: rgb(231, 24, 24);
+    font-weight: 900;
+}
+
+.sun_banner_btn{
+    margin: 20px 0;
+    color: black;
+    border:3px solid black;
+    background-color: #bfd5e5;
+}
+
+
+.sun_banner_btn:hover{   
+    background-color: #fff;
+}
+#small_ban{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+}
+
+#small_ban .sm_ban{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/Bg2/hoddie_bg2.jpg');
+    height: 40vh;
+    min-width: 47%;
+    background-size: cover;
+    background-position: center;
+    margin: 40px 0 70px;
+    padding: 35px;
+    color: white;
+}
+
+#small_ban #sm_ban2{
+     background-image: url('../img/Bg2/hoddie_bg1.jpg');
+     color: black;
+}
+
+#small_ban h3{
+    font-size: 40px;
+}
+#small_ban h2{
+    font-size: 55px;
+    margin: -10px 0;
+}
+#small_ban h4{
+    font-size: 30px;
+}
+#small_ban .sm_ban_btn{
+    margin: 20px 0;
+    color: black;
+    border:3px solid black;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    padding: 10px 12px;
+}
+
+
+#apprel_ban{
+    margin:0 auto 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('../img/Bg/liquid_bg.jpg');
+    height: 40vh;
+    width: 87%;
+    background-size: cover;
+    background-position: center;
+    padding: 35px;
+    color: white;
+}
+
+
+#apprel_ban .sm_ban_btn{
+    margin: 10px 0 0;
+    color: black;
+    border:3px solid black;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    padding: 10px 12px;
+}
+
+#apprel_ban h3{
+    font-size: 40px;
+}
+#apprel_ban h2{
+    font-size: 75px;
+    margin: -10px 0;
+}
+#apprel_ban h4{
+    font-size: 25px;
+}
+
+/* *** cart *** */
+#cart{
+    overflow-x: auto;
+}
+#cart table{
+    width: 95%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 80px;
+}
+
+#cart table td{
+    padding: 8px 15px;
+}
+
+#cart table td:nth-child(1){
+    width: 10%;
+    text-align: center;
+}
+#cart table td:nth-child(3),
+#cart table td:nth-child(4),
+#cart table td:nth-child(5){
+    width: 15%;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width:30%;
+    text-align: center;
+}
+#cart table td:nth-child(6){
+    width:5%;
+    text-align: center;
+}
+
+#cart table td:nth-child(4) input{
+    width: 40%;
+    padding: 5px 10px;
+}
+
+#cart table thead{
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead tr td{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#cartadd{
+    width: 50%;
+    padding: 20px 40px;
+    margin: 70px auto;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#cartadd h3{
+    margin: 0 auto;
+}
+
+#cartadd table{
+    width: 95%;
+    margin:10px auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap; 
+}
+
+#cartadd table td{
+    padding: 8px 15px;
+}
+#cartadd table td:nth-child(1){
+    width:60%;
+    text-align: center;
+}
+#cartadd table td:nth-child(2){
+    width:35%;
+    text-align: center;
+}
+
+.coupen input{
+    width: 40%;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+#cartadd .coupen button{
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+#cartadd button{
+    padding: 5px 10px;
+    margin: 10px;
+}

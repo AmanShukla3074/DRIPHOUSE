@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/util.css">
+<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <section class="header" id="header">
+    <div class="left">
+      <a href="#"><img src="img/logo/Drip Logo.png" alt="" /></a>
+    </div>
+    <div class="right">
+      <ul id="navbar" class="flex">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="apprel.html">Apparel</a></li>
+        <li><a href="#">Sneakers</a></li>
+        <li><a href="#">Summer Drop!</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" class="active"><i class="fa-solid fa-cart-shopping cart"></i></a></li>
+        <li><a href="#" id="close"><i  class="fa-solid fa-xmark"></i></a></li>
+      </ul>
+    </div>
+    <div class="menu">
+      <a class="active" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </section>
+
+<section id="cart">
+    <table width="100%">
+      <thead>
+        <tr>
+          <td>Product</td>
+          <td>Product Name</td>
+          <td>Price</td>
+          <td>Quantity</td>
+          <td>Subtotal</td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="img/Apparel/Hoodies/1/tswag-tsunami-back-full-view.jpg" alt=""></td>
+          <td>Peace In My Mind</td>
+          <td>999</td>
+          <td><input type="number" value="1"></td>
+          <td>999</td>
+          <td><i  class="fa-solid fa-xmark"></i></td>
+        </tr>
+        <tr>
+          <td><img src="img/SumDrop/Tees/2/apogee-model-alternate-2_5e358069-cdbc-49ed-8720-b7b00eb72b0e.jpg" alt=""></td>
+          <td>Black Kingh</td>
+          <td>1299</td>
+          <td><input type="number" value="2"></td>
+          <td>1998</td>
+          <td><i  class="fa-solid fa-xmark"></i></td>
+        </tr>
+        <tr>
+          <td><img src="img/SumDrop/Lowers/1/apogee-utility-orange-shorts-model-vertical_f2e9b1d5-2f42-4f27-90d7-b712a624b2ce.jpg" alt=""></td>
+          <td>Black Kingh - lower</td>
+          <td>799</td>
+          <td><input type="number" value="1"></td>
+          <td>799</td>
+          <td><i  class="fa-solid fa-xmark"></i></td>
+        </tr>
+        <tr>
+          <td><img src="img/SumDrop/Sunglasses/1/godfather-blue-02.jpg" alt=""></td>
+          <td>Godfather - Blue</td>
+          <td>2999</td>
+          <td><input type="number" value="1"></td>
+          <td>2999</td>
+          <td><i  class="fa-solid fa-xmark"></i></td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+
+<section id="cartadd">
+  <h3>Card Total</h3>
+  <table>
+    <tr>
+      <td>Cart SubTotal</td>
+      <td>6795</td>
+    </tr>
+    <tr>
+      <td>Delivery</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Tax</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><Strong>Total</Strong></td>
+      <td><Strong>6795</Strong></td>
+    </tr>
+  </table>
+
+    <div class="coupen">
+      <Input type="text" placeholder="Enter Coupen"></Input>
+      <button>Apply</button>
+    </div>
+      <button>Proceed To Chechout</button>
+    </section>
+
+  <footer>
+    <div class="col1 col">
+      <img src="img/logo/Drip Logo.png" alt="">
+      <h3>Our Main Branch</h3>
+      <h4><strong>Address: </strong>B-5,Damodar So., Nikol, Ahemdabad ,Gujarat ,382350</h4>
+      <h4><strong>Phone: </strong>(+91) 9875270479</h4>
+      <h4><strong>Hours: </strong>10:00 - 21:00 , Mon-Sat</h4>
+      <h4><strong>Email: </strong>driphelp@dripbussiness.com</h4>
+      <div class="social">
+        <h3>Our Social Handles</h3>
+        <div class="icon">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col2 col">
+      <h3>About</h3>
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">T&C</a>
+      <a href="#">Delivery Info.</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col3 col">
+      <h3>My Account</h3>
+      <a href="#">Sing In</a>
+      <a href="#">My Cart</a>
+      <a href="#">Whishlist</a>
+      <a href="#">Trake My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="col4 col">
+      <h3>Install App</h3>
+      <h4>Install Drip Official App Now!</h4>
+      <div class="app_row">
+        <img src="img/logo/Google play store.png" alt="">
+        <img src="img/logo/appstore.png" alt="">
+      </div>
+    </div>
+
+    <div class="copy">
+      <h4>&copy; 2023 - Drip StreatWear House</h4>
+    </div>
+  </footer>
+
+
+  <script src="JS/index.js"></script>
+</body>
+
+</html>
