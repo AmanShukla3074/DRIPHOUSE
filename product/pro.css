@@ -119,6 +119,7 @@
     }
     .pro_details .pro-imgs {
         width: 100%;
+        margin-right: 0px;
     }
     .pro_details .pro-details {
         padding-top: 20px;
